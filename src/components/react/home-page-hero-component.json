@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_react_home_page_hero_components",
+  "info": {
+    "displayName": "Home Page Hero Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingText": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "callToActionLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utilities.link"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
